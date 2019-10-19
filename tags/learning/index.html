@@ -11,7 +11,7 @@
 
     <title>
         
-        About - undefined
+        
         
     </title>
 
@@ -59,7 +59,7 @@
                     <span>HOME</span>
                 </a>
             </li>
-            <li >
+            <li  class=active >
                 <a href="/tags">
                     <i class="iconfont icon-biaoqian1"></i>
                     <span>TAGS</span>
@@ -71,7 +71,7 @@
                     <span>ARCHIVES</span>
                 </a>
             </li>
-            <li  class=active >
+            <li >
                 <a href="/about/">
                     <i class="iconfont icon-guanyu2"></i>
                     <span>ABOUT</span>
@@ -111,33 +111,63 @@
     <div class="index-middle">
         <!-- Main Content -->
         
-<div class="post-content ">
-    <h2 id="Backgroud"><a href="#Backgroud" class="headerlink" title="Backgroud"></a>Backgroud</h2><p>I am a Computer Master student at psu. In my daily work, I enjoy solving interesting computer problems and puzzles. Always looking for opportunities for improving. Like meeting new people and learn great ideas and qualities from them.</p>
-<p>Currently, my main work is developing static Program Analysis tools for <strong>SOS lab</strong> at Penn State. The analysis tool is built based on LLVM. </p>
-<p>I also have experienced with </p>
-<ul>
-<li>Web (Angular, Vue, React)</li>
-<li>Game development</li>
-<li>Linux</li>
-<li>OO programming</li>
-<li>Functional programming</li>
-</ul>
-<p>In my spare time, I like to study programming language design and play around with source to source compiler (implementation). I enjoy learning great programming language concepts.</p>
-<h2 id="Projects"><a href="#Projects" class="headerlink" title="Projects"></a>Projects</h2><ul>
-<li>Program Dependency Analysis (<strong>using llvm 5.0, written in C++</strong>)</li>
-<li>Ruby to Java compiler (<strong>using Antlr4, written in Java</strong>)</li>
-<li>User behavior tracking and playback web app (<strong>Rails + node.js + tamper monkey</strong>)</li>
-</ul>
-<h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><ul>
-<li>Email: <a href="mailto:**jkwuang@gmail.com" target="_blank" rel="noopener">**jkwuang@gmail.com</a>**</li>
-<li>Github username: ARISTODE</li>
-</ul>
 
-    
-    <div id="comment-container">
-    </div>
+
+<!-- 归档列表 -->
+
+<div class="archives-container">
+
+<div class="one-tag-list">
+                <span class="fa fa-calendar-times-o listing-seperator" id="2019">
+                    <span class="tag-text">2019</span>
+                </span>
+    <ul>
+        
+        <!-- <li class="listing-item">
+        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        </li> -->
+        <li >
+            <span>10-19</span>
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            <a href="/2019/10/19/Use-LLVM-CFG-to-identify-critical-section/">
+                        <span>
+                            Use LLVM CFG to identify critical section
+                        </span>
+            </a>
+            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </li>
+        
+
+    </ul>
 </div>
 
+<div class="one-tag-list">
+                <span class="fa fa-calendar-times-o listing-seperator" id="2018">
+                    <span class="tag-text">2018</span>
+                </span>
+    <ul>
+        
+        <!-- <li class="listing-item">
+        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        </li> -->
+        <li >
+            <span>08-12</span>
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            <a href="/2018/08/12/about-learning/">
+                        <span>
+                            about_learning
+                        </span>
+            </a>
+            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </li>
+        
+
+    </ul>
+</div>
+
+</div>
     </div>
 </div>
 
